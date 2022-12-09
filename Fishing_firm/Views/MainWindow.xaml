@@ -1,0 +1,16 @@
+﻿<Window x:Class="Fishing_firm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fishing_firm"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com" 
+        mc:Ignorable="d"
+        Title="Login" Height="500" Width="550" ResizeMode="NoResize" Background="#566374" WindowStartupLocation="CenterScreen" WindowStyle="None" >
+
+    <StackPanel Margin="10,10,10,10" >
+        <Image gif:ImageBehavior.AnimatedSource="../Assets/loading.gif" Stretch="Fill" Width="561" Height="435" Margin="-10" />
+        <TextBlock TextAlignment="Center" Text="Загрузка..." FontSize="50" Height="59" FontWeight="DemiBold" Foreground="White"/>
+    </StackPanel>
+
+</Window>
